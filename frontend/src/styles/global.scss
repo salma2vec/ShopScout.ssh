@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import "./variables.scss";
+
+// sizing, positioning, typography
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+.bold {
+  font-weight: 700;
+}
+.all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-center-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.light {
+  color: $themeColor !important;
+}
+.dark {
+  color: $darkThemeColor !important;
+}
+
+// button
+.btn {
+  box-shadow: none !important;
+  transition: 0.15s;
+}
+.btn-sm {
+  border-radius: 15px !important;
+  padding: 3px 9px !important;
+}
+.btn-md {
+  border-radius: 20px;
+  padding: 8px 24px !important;
+}
+
+// header
+.header {
+  .buttons {
+    white-space: nowrap;
+    margin-left: auto;
+  }
+  .notification-container {
+    width: 290px;
+    margin-top: 70px;
+  }
+}
+
+// footer
+.footer {
+  background: $themeColor;
+  .report-problem {
+    position: absolute;
+    right: 0;
+  }
+}
+
+//modal
+.popup-modal {
+  overflow-y: initial !important;
+  background: $themeColor;
+  .form-container-image {
+    width: 40%;
+    border-right: solid 1px $themeColor;
+  }
+
+  .form-container {
+    padding: 48px;
+    width: 60%;
+  }
+}
+
+// password revealer
+.pw-revealer {
+  font-size: 1.4rem;
+  float: right;
+  position: relative;
+  margin-right: 10px;
+  z-index: 2;
+}
+
+@media (max-width: 991.98px) {
+  // modal
+  .popup-modal {
+    background: white;
+    .form-container-image {
+      display: none;
+    }
+    .form-container {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .popup-modal {
+    .form-container {
+      max-height: 70vh;
+      overflow-y: auto;
+      padding: 24px 48px;
+
+      .track-detail-image {
+        width: 35%;
+      }
+    }
+  }
+
+  .footer {
+    .report-problem {
+      position: initial;
+      right: initial;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .popup-modal {
+    .form-container {
+      .track-detail-image {
+        width: 50%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  // header
+  .header {
+    .notification-container {
+      width: 290px;
+    }
+    .container {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .buttons,
+    .navbar-brand {
+      margin: 0.1em 0;
+    }
+  }
+
+  // modal
+  .popup-modal {
+    .form-container {
+      padding: 12px 24px;
+      .track-detail-image {
+        width: 60%;
+      }
+    }
+  }
+}

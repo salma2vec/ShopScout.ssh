@@ -1,0 +1,145 @@
+@import "./variables.scss";
+
+// locked-page
+.dashboard-locked-page {
+  .dashboard-locked {
+    background: $themeColor;
+    height: 90vh;
+
+    .dashboard-locked-background {
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+    }
+
+    .caption {
+      .title {
+        font-size: 3rem;
+      }
+      .subtitle {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+// authenticated dashboard page
+.dashboard-page {
+  // min-height: 100vh;
+  .control-panel {
+    width: 15%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #007acc, #007acc);
+
+    .control-bars {
+      .control-bar {
+        opacity: 1; // temporary
+        background: rgba($color: blue, $alpha: 0.1);
+        padding: 22px 0;
+        padding-left: 44px;
+        transition: 0.2s;
+        border-left: 5px solid white;
+        white-space: nowrap;
+        &:hover {
+          opacity: 1;
+        }
+        .icon {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+  .user-panel {
+    background: $themeColor;
+    width: 85%;
+    height: 100vh;
+
+    .title {
+      font-size: 3rem;
+    }
+
+    .tracks {
+      padding: 0 48px;
+      .track {
+        user-select: none;
+        * {
+          pointer-events: none;
+        }
+        .edit-btn,
+        .check-btn {
+          pointer-events: initial;
+        }
+        border: none;
+        transition: 0.3s;
+        border: solid 1px white;
+        cursor: pointer;
+        &:hover {
+          border: solid 1px #007bff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .dashboard-page {
+    .control-panel {
+      .control-bars {
+        .control-bar {
+          padding-left: 0;
+          justify-content: center !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .dashboard-page {
+    .control-panel {
+      width: 15%;
+      // padding: 0;
+    }
+
+    .user-panel {
+      width: 85%;
+
+      .tracks {
+        padding: 0 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .dashboard-page {
+    .control-panel {
+      position: fixed;
+      bottom: 0;
+      background: #007bff;
+      height: 50px;
+      width: 100vw;
+      .control-bars {
+        .control-bar {
+          border-left: none;
+          padding: 0;
+          align-items: center !important;
+          margin: 0 36px;
+        }
+      }
+    }
+
+    .user-panel {
+      height: 100vh;
+      width: 100vw;
+      font-size: 0.9rem;
+      .title {
+        font-size: 2.5rem;
+      }
+      .tracks {
+        padding: 0 12px;
+      }
+    }
+  }
+}
