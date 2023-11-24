@@ -145,5 +145,3 @@ if (youEnjoyed) {
 ```
 
 -----------
-
-[Flaticon](https://www.flaticon.com/home)
