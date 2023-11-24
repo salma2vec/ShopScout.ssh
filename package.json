@@ -1,7 +1,7 @@
 {
-  "name": "amazon-tracker",
+  "name": "shop-scout",
   "version": "1.0.0",
-  "description": "an app to track amazon product price",
+  "description": "an app to track amazon product prices",
   "engines": {
     "node": "12.16.2"
   },
