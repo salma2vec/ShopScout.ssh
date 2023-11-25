@@ -14,10 +14,10 @@
   </a>
 </p>
 
-## <p align="center">elevate Your e-commerce intelligence.</p>
+## <p align="center">elevate your e-commerce intelligence.</p>
 
 <p align="center">
-    comprehensive full-stack web application designed for tracking the price dynamics of any product on Amazon. 
+    a comprehensive full-stack web application designed for tracking the price dynamics of any product on Amazon. 
     <br/>
     <a href="https://docs.google.com/document/d/17jfGy-oLZas7haOnenJluC_ct5VxzirVCmd4PKs1Opo/edit?usp=sharing"><strong>Explore the design specification »</strong></a>
     <br />
@@ -145,5 +145,3 @@ if (youEnjoyed) {
 ```
 
 -----------
-
-[Flaticon](https://www.flaticon.com/home)
