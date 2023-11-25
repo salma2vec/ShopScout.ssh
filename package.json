@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "an app to track amazon product prices",
   "engines": {
-    "node": "12.16.2"
+    "node": "16.20.2"
   },
   "main": "server.js",
   "scripts": {
@@ -11,11 +11,10 @@
     "client-install": "cd frontend && npm install",
     "client-start": "cd frontend && npm start",
     "build": "cd frontend && npm run build",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
     "dev": "concurrently \"nodemon server\" \"npm start --prefix frontend\""
   },
   "keywords": [],
-  "author": "",
+  "author": "salma",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
