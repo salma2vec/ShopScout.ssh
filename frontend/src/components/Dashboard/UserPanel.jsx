@@ -60,7 +60,7 @@ export default function UserPanel() {
     }
   }
 
-  // show delete button if checked
+  // show the delete button if checked
   if (document.getElementById("deleteBtn")) {
     const deleteBtn = document.getElementById("deleteBtn");
     if (selectedTracks.length > 0) {

@@ -23,7 +23,7 @@ export default function HeroSection() {
         <div className="container h-100 all-center-column justify-content-sm-around">
           <div className="caption all-center-column">
             <div className="title bold">
-              Welcome to <span className="dark">TrackerBase</span>
+              Welcome to <span className="dark">ShopScout</span>
             </div>
             <div className="subtitle">
               We help you track any Amazon product and maintain your records in

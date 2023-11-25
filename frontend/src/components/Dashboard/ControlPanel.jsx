@@ -29,7 +29,7 @@ export default function ControlPanel() {
           </div>
         ))}
         <div className="all-center d-sm-none d-block text-white-50">
-          More feature coming soon!
+          More features coming soon!
         </div>
       </div>
     </div>
