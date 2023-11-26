@@ -1,6 +1,7 @@
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
+
 <!--
 *** Thanks for checking out the ShopScout project. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -14,7 +15,7 @@
   </a>
 </p>
 
-## <p align="center">elevate your e-commerce intelligence.</p>
+## `<p align="center">`elevate your e-commerce intelligence.`</p>`
 
 <p align="center">
     a comprehensive full-stack web application designed for tracking the price dynamics of any product on Amazon. 
@@ -31,6 +32,7 @@
 </p>
 
 # Table of Contents
+
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
@@ -42,7 +44,7 @@
 ## Features
 
 - Create an account
-- Track any product's price on Amazon (future support for multiple e-commerce websites: Flipkart, BestBuy, Snapdeal, Alibaba)
+- Track any product's price on Amazon (future support for multiple e-commerce websites: Flipkart, BestBuy, Snapdeal, Alibaba, Nykaa)
 
 ## Tech Stack
 
@@ -50,14 +52,13 @@
 - Bootstrap
 - Sass
 
-
 ## Setup
 
 > Get your MongoDB connection string
 
-Follow from Part 1 (Create an Atlas Account) to Part 5 (Connect to Your Cluster) in [this documentation](https://docs.atlas.mongodb.com/getting-started/). <br>
+Follow from Part 1 (Create an Atlas Account) to Part 5 (Connect to Your Cluster) in [this documentation](https://docs.atlas.mongodb.com/getting-started/). `<br>`
 
-In [Part 5](https://docs.atlas.mongodb.com/tutorial/connect-to-your-cluster/), skip to [Connect to Your Atlas Cluster](https://docs.atlas.mongodb.com/tutorial/connect-to-your-cluster/#connect-to-your-atlas-cluster) and follow from Step 1 to Step 4 to get the connection string. <br>
+In [Part 5](https://docs.atlas.mongodb.com/tutorial/connect-to-your-cluster/), skip to [Connect to Your Atlas Cluster](https://docs.atlas.mongodb.com/tutorial/connect-to-your-cluster/#connect-to-your-atlas-cluster) and follow from Step 1 to Step 4 to get the connection string. `<br>`
 
 Now, clone the repository, then:
 
@@ -111,6 +112,7 @@ npm run dev
 - Add price analytics
 
 ## Contributing
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -129,12 +131,12 @@ For any questions, suggestions, or issues, please contact:
 - **Salma Shaik**
   - GitHub: [IdealisticINTJ](https://github.com/IdealisticINTJ)
   - Email: [salmasaa02@gmail.com](mailto:salmasaa02@gmail.com)
-    
+
 ## License
+
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
-
----------
+---
 
 ```javascript
 
@@ -144,4 +146,4 @@ if (youEnjoyed) {
 
 ```
 
------------
+---
