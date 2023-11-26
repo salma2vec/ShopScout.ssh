@@ -15,7 +15,7 @@
   </a>
 </p>
 
-## `<p align="center">`elevate your e-commerce intelligence.`</p>`
+### <p align="center"> elevate your e-commerce intelligence. </p>
 
 <p align="center">
     a comprehensive full-stack web application designed for tracking the price dynamics of any product on Amazon. 
